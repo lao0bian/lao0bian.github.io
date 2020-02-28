@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lao0bian.github.io/sitemap.xml
