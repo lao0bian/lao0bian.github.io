@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 老边的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Feb 2020 09:46:04 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 11:34:58 +0800</lastBuildDate>
     
 	<atom:link href="https://lao0bian.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo使用代码</title>
+      <link>https://lao0bian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Fri, 28 Feb 2020 11:34:58 +0800</pubDate>
+      
+      <guid>https://lao0bian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>第一次测试</title>
