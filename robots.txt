@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://lao0bian.github.io/sitemap.xml
+Sitemap: https://laobian.github.io/sitemap.xml

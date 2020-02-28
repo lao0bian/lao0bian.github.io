@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 老边的博客</title>
-    <link>https://lao0bian.github.io/post/</link>
+    <link>https://laobian.github.io/post/</link>
     <description>Recent content in Posts on 老边的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Feb 2020 11:34:58 +0800</lastBuildDate>
     
-	<atom:link href="https://lao0bian.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laobian.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo使用代码</title>
-      <link>https://lao0bian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</link>
+      <link>https://laobian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</link>
       <pubDate>Fri, 28 Feb 2020 11:34:58 +0800</pubDate>
       
-      <guid>https://lao0bian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</guid>
-      <description></description>
+      <guid>https://laobian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</guid>
+      <description>这是我的第一篇正经博客 主要是为了记录hugo发布博客涉及到的代码，方便之后进行博客的发布 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 hugo new post/xxx.md //新建一个</description>
     </item>
     
     <item>
       <title>第一次测试</title>
-      <link>https://lao0bian.github.io/post/blog/</link>
+      <link>https://laobian.github.io/post/blog/</link>
       <pubDate>Fri, 28 Feb 2020 09:46:04 +0800</pubDate>
       
-      <guid>https://lao0bian.github.io/post/blog/</guid>
+      <guid>https://laobian.github.io/post/blog/</guid>
       <description>你好 欢迎各位</description>
     </item>
     
