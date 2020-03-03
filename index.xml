@@ -6,18 +6,27 @@
     <description>Recent content on 老边的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2020 21:28:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 22:55:32 +0800</lastBuildDate>
     
 	<atom:link href="https://laobian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>20190302收获体会</title>
+      <title>20190302</title>
+      <link>https://laobian.github.io/post/20190302/</link>
+      <pubDate>Mon, 02 Mar 2020 22:55:32 +0800</pubDate>
+      
+      <guid>https://laobian.github.io/post/20190302/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20190302</title>
       <link>https://laobian.github.io/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</link>
       <pubDate>Mon, 02 Mar 2020 21:28:10 +0800</pubDate>
       
       <guid>https://laobian.github.io/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</guid>
-      <description></description>
+      <description>总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就</description>
     </item>
     
     <item>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>20190302收获体会 - 老边的博客</title>
+  <title>20190302 - 老边的博客</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="老边" /><meta name="description" content="" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="老边" /><meta name="description" content="总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -38,23 +38,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="20190302收获体会" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="20190302" />
+<meta property="og:description" content="总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://laobian.github.io/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/" />
 <meta property="article:published_time" content="2020-03-02T21:28:10+08:00" />
 <meta property="article:modified_time" content="2020-03-02T21:28:10+08:00" />
-<meta itemprop="name" content="20190302收获体会">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="20190302">
+<meta itemprop="description" content="总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就">
 <meta itemprop="datePublished" content="2020-03-02T21:28:10&#43;08:00" />
 <meta itemprop="dateModified" content="2020-03-02T21:28:10&#43;08:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="1550">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="20190302收获体会"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="20190302"/>
+<meta name="twitter:description" content="总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,13 +117,13 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">20190302收获体会</h1>
+      <h1 class="post-title">20190302</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2020-03-02 </span>
         
-          <span class="more-meta"> 约 0 字 </span>
-          <span class="more-meta"> 预计阅读 0 分钟 </span>
+          <span class="more-meta"> 约 1550 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
         
       </div>
     </header>
@@ -131,11 +131,252 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#二叉搜索树的应用">二叉搜索树的应用</a>
+      <ul>
+        <li><a href="#题目">题目:</a></li>
+        <li><a href="#思路">思路：</a></li>
+        <li><a href="#感受">感受：</a></li>
+      </ul>
+    </li>
+    <li><a href="#leecode07整数反转">leecode07整数反转</a>
+      <ul>
+        <li><a href="#题目-1">题目：</a></li>
+        <li><a href="#代码讲解">代码讲解：</a></li>
+        <li><a href="#感受-1">感受：</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      
+      <h1 id="总体">总体:</h1>
+<p>总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识，
+直白来讲就是我并没有熟练的掌握它，所以需要利用这些时间来加紧练习；第二部分则是来自leecoode，我做了这上面的题才发现自己是多
+么的菜，第二题自己就没有做出来，看来以后得日子任重道远了。</p>
+<h2 id="二叉搜索树的应用">二叉搜索树的应用</h2>
+<p>这道题真的是折磨了我一个下午吧，本来自己找了一份代码，按照他的思路来构建树，但是没想到找的那份不靠谱，根本就没有用指针，就生写
+写出来的，所以自己一狠心，直接代码重新写，这里借鉴了网上的一篇文章，结合我自己的题目修改了一下，然后就ac了。</p>
+<h3 id="题目">题目:</h3>
+<p>图像的灰度直方图是反映一幅图片中各灰度级像素出现的频率与灰度级之间的关系，也就是说，把这幅图片中每一个像素出现的次数统计出来。请根据给出的灰度值矩阵统计出此图的灰度直方图，即统计每一个灰度值出现的频数。</p>
+<p><strong>输入格式：</strong>
+每个测试包含一个测试样例，第一行给出矩阵的行数m和列数n，以空格隔开，以下输入一个灰度值矩阵，灰度行值之间以空格隔开，灰度值取值范围为0-255。<br>
+<strong>输出格式：</strong></p>
+<p>对每个测试用例中的每一个灰度值，以灰度值v:出现频数t的格式在一行中输出该灰度值v及其在矩阵中出现的次数t。要求按灰度值的升序输出,末尾无多余空格。</p>
+<p><strong>输入样例：</strong></p>
+<blockquote>
+<p>4 5<br>
+1 3 7 9 12<br>
+4 4 8 10 12<br>
+4 3 8 9 10<br>
+1 4 10 12 8</p>
+</blockquote>
+<p><strong>输出样例:</strong></p>
+<blockquote>
+<p>1:2<br>
+3:2<br>
+4:4<br>
+7:1<br>
+8:3<br>
+9:2<br>
+10:3<br>
+12:3</p>
+</blockquote>
+<h3 id="思路">思路：</h3>
+<ol>
+<li>将输入的数存入到数组里。</li>
+<li>将数组中的数存到二叉搜索树中去。</li>
+<li>要注意树的构建过程中也要存储该点出现了几次（应题目要求）。</li>
+<li>中序遍历按要求输出树即可。</li>
+</ol>
+<p>这里面主要的是二叉搜索树的构建以及中序遍历，直接看代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-C++" data-lang="C++"><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">t</span> <span class="o">=</span><span class="mi">100</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="k">typedef</span>  <span class="k">struct</span> <span class="nc">bstNode</span>    <span class="c1">//我查了一下发现typedef 是c语言比较常用的，就相当于可以在结构体之后给他起一个别名
+</span><span class="c1"></span><span class="p">{</span>
+	<span class="kt">int</span> <span class="n">val</span><span class="p">;</span>    <span class="c1">//存储树的值
+</span><span class="c1"></span>	<span class="kt">int</span> <span class="n">num</span><span class="p">;</span>    <span class="c1">//存储树结点的值出现的个数
+</span><span class="c1"></span>	<span class="k">struct</span> <span class="nc">bstNode</span> <span class="o">*</span><span class="n">left_child</span><span class="p">,</span> <span class="o">*</span><span class="n">right_child</span><span class="p">;</span><span class="c1">//左孩子和右孩子
+</span><span class="c1"></span>
+<span class="p">}</span><span class="o">*</span><span class="n">bst</span><span class="p">;</span>
+
+<span class="kt">bool</span> <span class="nf">bstInsert</span><span class="p">(</span><span class="n">bstNode</span> <span class="o">*&amp;</span><span class="n">p</span><span class="p">,</span> <span class="kt">int</span> <span class="n">e</span><span class="p">)</span> <span class="p">{</span>  <span class="c1">//向树中插入结点
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">//判断是否树为空
+</span><span class="c1"></span>		<span class="n">p</span> <span class="o">=</span> <span class="p">(</span><span class="n">bstNode</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">bstNode</span> <span class="p">));</span>  <span class="c1">//动态申请内存
+</span><span class="c1"></span>		<span class="c1">//p = new bstNode;
+</span><span class="c1"></span>		<span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">=</span> <span class="n">e</span><span class="p">;</span>
+		<span class="n">p</span><span class="o">-&gt;</span><span class="n">left_child</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">right_child</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+		<span class="n">p</span><span class="o">-&gt;</span><span class="n">num</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">e</span> <span class="o">==</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">p</span><span class="o">-&gt;</span><span class="n">num</span><span class="o">++</span><span class="p">;</span>     <span class="c1">//若插入的元素值同结点的元素值相同，则出现次数num+1；
+</span><span class="c1"></span>		<span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">e</span> <span class="o">&lt;</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">bstInsert</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">left_child</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">e</span> <span class="o">&gt;</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">bstInsert</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">right_child</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
+	<span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">buildTree</span><span class="p">(</span><span class="n">bstNode</span> <span class="o">*&amp;</span> <span class="n">T</span><span class="p">,</span><span class="kt">int</span> <span class="n">a</span><span class="p">[],</span><span class="kt">int</span> <span class="n">k</span><span class="p">)</span> <span class="p">{</span><span class="c1">//递归建树
+</span><span class="c1"></span>	<span class="n">T</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">q</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="k">for</span> <span class="p">(</span><span class="n">q</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">q</span> <span class="o">&lt;</span> <span class="n">k</span><span class="p">;</span> <span class="n">q</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">bstInsert</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">a</span><span class="p">[</span><span class="n">q</span><span class="p">]);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">midSort</span><span class="p">(</span><span class="n">bst</span> <span class="n">T</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">//中序遍历输出，也就是左中右的顺序，这里也采取了递归的方式
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">midSort</span><span class="p">(</span><span class="n">T</span><span class="o">-&gt;</span><span class="n">left_child</span><span class="p">);</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">T</span><span class="o">-&gt;</span><span class="n">val</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;:&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">T</span><span class="o">-&gt;</span><span class="n">num</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+		<span class="n">midSort</span><span class="p">(</span><span class="n">T</span><span class="o">-&gt;</span><span class="n">right_child</span><span class="p">);</span>
+	<span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kt">int</span> <span class="n">m</span><span class="p">,</span> <span class="n">n</span><span class="p">;</span>
+	<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">m</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">a</span><span class="p">[</span><span class="n">t</span><span class="p">];</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">m</span><span class="o">*</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+	<span class="p">}</span>
+	<span class="n">bst</span> <span class="n">tnode</span><span class="p">;</span>
+	<span class="n">buildTree</span><span class="p">(</span><span class="n">tnode</span> <span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">m</span><span class="o">*</span><span class="n">n</span><span class="p">);</span>
+	<span class="n">midSort</span><span class="p">(</span><span class="n">tnode</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+	
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这道题参考了<a href="https://blog.csdn.net/stpeace/article/details/9067029" title="CSDN博客">CSDN博客</a></p>
+<h3 id="感受">感受：</h3>
+<p>这一段时间我通过做题给我最大的感受就是对于数据结构来说，我用的太少了，并没有把他作为一个工具，而是把他认定为一个很复杂的东西，所以一直没有信心和胆量来运用它，这是我今后要改正的地方，数据结构就是省时省力的一个工具，所以一定要会用他，并且用好他。</p>
+<h2 id="leecode07整数反转">leecode07整数反转</h2>
+<h3 id="题目-1">题目：</h3>
+<p>题目链接：<a href="https://leetcode-cn.com/problems/reverse-integer/" title="整数反转">整数反转</a></p>
+<h3 id="代码讲解">代码讲解：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-C++" data-lang="C++"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="kt">int</span> <span class="n">reverse</span><span class="p">(</span><span class="kt">long</span> <span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">max</span> <span class="o">=</span><span class="mi">2147483647</span><span class="p">;</span>  <span class="c1">//根据题目所说的32位有符号整数定的范围
+</span><span class="c1"></span>        <span class="kt">int</span> <span class="n">min</span> <span class="o">=-</span><span class="mi">2147483648</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">rev</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>   <span class="c1">//记录反转后的数
+</span><span class="c1"></span>        <span class="k">while</span> <span class="p">(</span><span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">int</span> <span class="n">pop</span> <span class="o">=</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span>
+            <span class="n">x</span> <span class="o">/=</span> <span class="mi">10</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">rev</span> <span class="o">&gt;</span> <span class="n">max</span><span class="o">/</span><span class="mi">10</span> <span class="p">)</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">rev</span> <span class="o">&lt;</span> <span class="n">min</span><span class="o">/</span><span class="mi">10</span> <span class="p">)</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+            <span class="n">rev</span> <span class="o">=</span> <span class="n">rev</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="n">pop</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">rev</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>题目讲解：<a href="https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode/" title="官方解释">官方解释</a></p>
+<h3 id="感受-1">感受：</h3>
+<p>感受最深的就是自己脑子不转，太笨了，所以么的做出来，说白了这就是一道数学题，但是官方讲解也让我学到了面对一道题我要如何一步一步的去解决它，需要再以后勤加练习。</p>
+<h1 id="回顾">回顾:</h1>
+<p>总的来说，这一天的收获还是挺多的，这是比较让我欣慰的地方，还有就是奶奶最近生病了，情况不是太理想，我希望我的家人都健健康康的，不要受到疾病的折磨，希望奶奶早日出院。</p>
+<pre><code>                                             明天会更好，加油哟！
+</code></pre>
+
     </div>
 
     <div class="post-copyright">
@@ -156,7 +397,11 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/20190302/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">20190302</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         <a class="next" href="/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/">
             <span class="next-text nav-default">Hugo使用代码</span>
             <span class="next-text nav-mobile">下一篇</span>
@@ -172,9 +417,9 @@
     <script type="text/javascript">
       var gitment = new Gitment({
         id: '2020-03-02 21:28:10 \x2b0800 CST',
-        title: '20190302收获体会',
+        title: '20190302',
         link: decodeURI(location.href),
-        desc: '',
+        desc: '总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就',
         owner: 'lao0bian',
         repo: '',
         oauth: {
