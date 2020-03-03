@@ -2,48 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 老边的博客</title>
-    <link>https://laobian.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 老边的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2020 22:55:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 21:28:10 +0800</lastBuildDate>
     
-	<atom:link href="https://laobian.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>20190302</title>
-      <link>https://laobian.github.io/post/20190302/</link>
-      <pubDate>Mon, 02 Mar 2020 22:55:32 +0800</pubDate>
-      
-      <guid>https://laobian.github.io/post/20190302/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>20190302</title>
-      <link>https://laobian.github.io/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</link>
+      <link>http://localhost:1313/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</link>
       <pubDate>Mon, 02 Mar 2020 21:28:10 +0800</pubDate>
       
-      <guid>https://laobian.github.io/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</guid>
+      <guid>http://localhost:1313/post/20190302%E6%94%B6%E8%8E%B7%E4%BD%93%E4%BC%9A/</guid>
       <description>总体: 总体来说的话，今天的收获还是很多的，收获的来源主要是数据结构二级形目的训练题目，因为自己本身对于数据结构没有一个更深的认识， 直白来讲就</description>
     </item>
     
     <item>
       <title>Hugo使用代码</title>
-      <link>https://laobian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</link>
+      <link>http://localhost:1313/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</link>
       <pubDate>Fri, 28 Feb 2020 11:34:58 +0800</pubDate>
       
-      <guid>https://laobian.github.io/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</guid>
-      <description>这是我的第一篇正经博客 主要是为了记录hugo发布博客涉及到的代码，方便之后进行博客的发布 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 hugo new post/xxx.md //新建一个</description>
+      <guid>http://localhost:1313/post/hugo%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81/</guid>
+      <description>这是我的第一篇正经博客 主要是为了记录hugo发布博客涉及到的代码，方便之后进行博客的发布 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 hugo new post/xxx.md //新建</description>
     </item>
     
     <item>
       <title>第一次测试</title>
-      <link>https://laobian.github.io/post/blog/</link>
+      <link>http://localhost:1313/post/blog/</link>
       <pubDate>Fri, 28 Feb 2020 09:46:04 +0800</pubDate>
       
-      <guid>https://laobian.github.io/post/blog/</guid>
+      <guid>http://localhost:1313/post/blog/</guid>
       <description>你好 欢迎各位</description>
     </item>
     
