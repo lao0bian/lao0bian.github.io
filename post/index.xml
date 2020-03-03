@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 老边的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2020 21:28:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 22:55:32 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>20200303</title>
+      <link>http://localhost:1313/post/20190302/</link>
+      <pubDate>Mon, 02 Mar 2020 22:55:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/20190302/</guid>
+      <description>总结 今天也是平淡的一天，pta的二级项目热身做完了，还有就是奶奶的病情还是不太好，所以还是十分担心她，希望她快快好起来。 标识每一个数字图元区</description>
+    </item>
     
     <item>
       <title>20200302</title>
