@@ -56,5 +56,32 @@
       <description>你好 欢迎各位</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/20190605/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/20190605/</guid>
+      <description>总结 这段时间摸了好多天，感觉自己学的太杂，需要处理的事情也太多，而且学的也不精，归根到底还是自己的能力太差了，该学的东西没有学好，然后不会的</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/20200606/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/20200606/</guid>
+      <description>微信小程序开发之旅（二） 我们已经大概了解到了微信小程序是如何创建一个项目的，现在就让我们开始去了解微信小程序中的不同类型后缀名文件所代表的意</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/20200608/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/20200608/</guid>
+      <description>Docker启动Get Permission Denied https://www.cnblogs.com/informatics/p/8276172.html vim模式下报错E37: No write since last change (add ! to override) https://www.cnblogs.com/liuyuan216/p/3510594.html Docker更换镜像源： https://www.jianshu.com/p/34d3b4568059 解决“正在连接 raw.githubusercontent.com|151.101.228.133|:443&amp;hellip; 失败：拒绝连接”的方法 https://blog.csdn.net/weixin_43201726/article/details/82967342?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase docker</description>
+    </item>
+    
   </channel>
 </rss>
