@@ -3,20 +3,27 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2020-03-19T21:53:23+08:00</lastmod>
+    <lastmod>2021-04-24T21:53:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E4%B9%8B%E6%97%85%E4%B8%80/</loc>
-    <lastmod>2020-03-19T21:53:23+08:00</lastmod>
+    <loc>http://localhost:1313/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-04-24T21:53:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2021-04-24T21:53:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E4%B9%8B%E6%97%85%E4%B8%80/</loc>
     <lastmod>2020-03-19T21:53:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,12 +59,6 @@
   
   <url>
     <loc>http://localhost:1313/post/20190605/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/20200606/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
